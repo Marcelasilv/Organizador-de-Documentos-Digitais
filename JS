@@ -1,0 +1,4 @@
+function add() {
+  docs.innerHTML += `<li>${doc.value} - Pendente</li>`;
+  doc.value = "";
+}
